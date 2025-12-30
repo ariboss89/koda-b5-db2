@@ -44,9 +44,11 @@ USERS || --o|  WALLET : Has
 WALLET || --o| BALANCE: Has
 USERS || --o{ DEPOSIT: Does
 USERS || --o{ TRANSACTION: Does
+USERS || --o{ WITHDRAW: Does
 
 BALANCE || --o{ WITHDRAW: Does
-BALANCE || --o{ WALLET: Has
+BALANCE || --o{ DEPOSIT: Does
+BALANCE || --o{ TRANSACTION: Does
 
 ```
 
